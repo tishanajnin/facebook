@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300|Spicy+Rice');
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+}
+ .header{
+    background: #44619D;
+    padding: 5px 0;
+}
+
+.header a{text-decoration: none;}
+
+.header a h1{
+    font-size: 35px;
+    color: white;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.container{
+    width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.left-part{
+    width: 50%;
+    float: left;
+}
+.logo{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 950;
+    margin-top: 32px;
+    display: block;
+    font-family: 'Spicy Rice', cursive;
+}
+.right-part{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+.login-form{}
+.login-form li{
+    float: left;
+    list-style: none;
+    padding: 12px;
+    box-sizing: border-box;
+}
+.login-form li span{color: #fff;font-size: 12px;display: block;}
+
+.login{
+    border: 1px solid #292929;
+    padding: 3px 4px;
+    width: 100%;
+    margin: 3px 0;
+}
+.login-form a{
+    font-size: 12px;
+    color: #ffffff75;
+    text-decoration: none;
+    display: block;
+}
+.login{
+    background: #4d79d4;
+    color: #fff;
+    padding: 4px 10px !important;
+    margin-top: 15px !important;
+}
+ .account-section{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d4d9e8+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(212,217,232,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(212,217,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(212,217,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d4d9e8',GradientType=0 ); /* IE6-9 */
+}
+.account-section .left-part{
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+.account-section h3{
+    font-size: 20px;
+    color: #213152;
+    margin-top: 30px;
+}
+.account-section img{
+    max-width: 100%;
+}
+.account-section h1{
+    font-size: 37px;
+    margin-top: 32px;
+}
+.account-section p{
+    font-size: 19px;
+    margin-bottom: 17px;
+}
+.account-section form{}
+.name{
+    overflow: hidden;
+}
+.name li{
+    list-style: none;
+    width: 50%;
+    float: left;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.name li input{
+    width: 102%;
+    padding: 10px;
+    border: 1px solid #bcc0ca;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ .info{}
+.info li{
+    list-style: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.info li input{
+    width: 102%;
+    padding: 10px;
+    border: 1px solid #bcc0ca;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.account-section h4{
+    font-size: 20px;
+    color: #464646;
+    font-weight: 500;
+} 
+select{
+    padding: 10px;
+    border: 1px solid #bcc0ca;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.name a{
+    color: #44619d;
+    font-size: 12px;
+    max-width: 150px;
+    display: block;
+}
+.gender{
+    margin: 10px 0;
+}
+.gender input{}
+.gender span{
+    font-size: 16px;
+    margin-right: 15px;
+}
+ .terms{}
+.terms p{
+    color: #666;
+    font-size: 12px;
+    max-width: 300px;
+}
+.terms a{}
+.signup{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7fbf5f+0,598a44+100 */
+    background: rgb(127,191,95); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(127,191,95,1) 0%, rgba(89,138,68,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(127,191,95,1) 0%,rgba(89,138,68,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(127,191,95,1) 0%,rgba(89,138,68,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fbf5f', endColorstr='#598a44',GradientType=0 ); /* IE6-9 */
+    padding: 4px 25px;
+    color: #fff;
+    font-size: 16px;
+    border: 2px solid #5c8e46;
+    margin: 10px 0;
+}
+.fb-page{
+    margin-bottom: 20px;
+}
+.fb-page p{font-size: 20px;color: #5f5f5f;}
+.fb-page a{
+    text-decoration: none;
+    color: #44619d;
+    /* margin-bottom: 20px; */
